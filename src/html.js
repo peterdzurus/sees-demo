@@ -28,6 +28,8 @@ export default function HTML(props) {
             brandembassy('init', 7299, 'chat_9b5788b9-8071-41c6-aba2-aa6eeaddb378');
             brandembassy('setWindowWidth', '340px');
             brandembassy('setWindowHeight', '60%');
+            brandembassy("setStatusMessage","Our agents are available and reply instantly");
+            brandembassy("setCustomCss",'.link {display: inline} .be-icon-more {color: #fff} div[class^="ActionPanel_Close"] {display: none}');
             
               `,
         }}
